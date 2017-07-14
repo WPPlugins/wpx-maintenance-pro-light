@@ -1,0 +1,32 @@
+/**
+ * Dashboard style
+ *
+ * You can keep a bound between css class and plugin name/namespace.
+ * To do this, you have to use the right naming for the css id and class.
+ *
+ */
+.wpxmp-settings .submit button.button-primary {
+  float: right;
+}
+.wpxmp-settings .submit button.button-secondary {
+  float: left;
+}
+.wpxmp-settings select[multiple] {
+  min-width: 187px;
+}
+.wpxmp-settings textarea {
+  width: 100%;
+  min-height: 80px;
+}
+.clearfix {
+  *zoom: 1 !important;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table !important;
+  line-height: 0 !important;
+  content: "" !important;
+}
+.clearfix:after {
+  clear: both !important;
+}
